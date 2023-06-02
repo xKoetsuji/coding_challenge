@@ -1,0 +1,8 @@
+{
+    "name": "codingchallenge/codingchallenge",
+    "description": "Mach Eight Coding Challenge",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.*"
+    }
+}
