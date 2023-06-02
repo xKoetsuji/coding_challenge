@@ -25,7 +25,10 @@ class NumberPairsFinder {
                 // Check if the pair of numbers sums to the target sum.
                 if ($numbers[$i] + $numbers[$j] == $targetSum) {
                     // Add the pair to the result.
-                    $pairs[] = array($numbers[$i], $numbers[$j]);
+                    $pairs[] = [
+                        $numbers[$i], 
+                        $numbers[$j]
+                    ];
                 }
             }
         }
